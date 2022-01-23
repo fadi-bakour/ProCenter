@@ -10,4 +10,6 @@ Password: 12341234
 
 -to run tests run "ReportTest" using phpunit
 
+-api contract "Report.md"
+
 Ps: mail service used now is mailtrap connected to personal account in env, to receive emails to your email please change configurations inside env file.
