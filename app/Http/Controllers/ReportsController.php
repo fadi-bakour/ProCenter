@@ -58,7 +58,7 @@ class ReportsController extends Controller
 
         if (!$user) {
             return redirect('reports/create')
-                ->withErrors(['message' => 'User is not Registered with our the system!'])
+                ->withErrors(['user' => 'User is not Registered with our the system!'])
                 ->withInput();
         }
 
